@@ -18,5 +18,5 @@ for item in l:
 print(min_actuel, max_actuel)
     
 # salut
-
+ 
 
