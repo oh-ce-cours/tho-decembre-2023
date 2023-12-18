@@ -5,7 +5,7 @@ print(l)
 # for index in range(len(l)):
 #     print(l[index])
 
-min = 101
+min = l[0]
 
 for item in l:
     print(item)
