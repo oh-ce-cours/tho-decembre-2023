@@ -7,3 +7,6 @@ print(l)
 
 for item in l:
     print(item)
+    
+    
+# salut
