@@ -8,7 +8,6 @@ print(l)
 min = l[0]
 
 for item in l:
-    print(item)
     print(item, min)
     
 # salut
