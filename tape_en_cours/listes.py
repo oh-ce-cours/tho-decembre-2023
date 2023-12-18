@@ -16,7 +16,3 @@ for item in l:
         max_actuel = item
         
 print(min_actuel, max_actuel)
-    
-# salut
- 
-
