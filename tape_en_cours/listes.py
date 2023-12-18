@@ -12,6 +12,8 @@ for item in l:
     print("item :", item, "----- min actuel :", min_actuel)
     if min_actuel > item:
         min_actuel = item
+    if max_actuel < item:
+        max_actuel = item 
     
 # salut
 
