@@ -5,10 +5,11 @@ print(l)
 # for index in range(len(l)):
 #     print(l[index])
 
-min = l[0]
+min_actuel = l[0]
 
 for item in l:
-    print(item, min)
+    print(item, min_actuel)
+    
     
 # salut
 
