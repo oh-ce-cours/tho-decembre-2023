@@ -8,7 +8,7 @@ print(l)
 min_actuel = l[0]
 
 for item in l:
-    print(item, min_actuel)
+    print("item :", item, "----- min actuel :", min_actuel)
     
     
 # salut
