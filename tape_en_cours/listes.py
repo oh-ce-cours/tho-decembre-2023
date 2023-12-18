@@ -6,6 +6,7 @@ print(l)
 #     print(l[index])
 
 min_actuel = l[0]
+max_actuel = l[0]
 
 for item in l:
     print("item :", item, "----- min actuel :", min_actuel)
