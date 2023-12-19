@@ -19,7 +19,8 @@ Modules / imports :
         * from random import randint # on ne récupère que randint de l'espace random
     * les modules peuvent etre
         * écrit par vous, des fichiers python que l'on peut importer
-        * 
+        * fourni par python (dans la bibliothèque standard)
+        * tierces, à installer avec des outils fournis par python 
     
 # Conditions 
 ma_liste = []
