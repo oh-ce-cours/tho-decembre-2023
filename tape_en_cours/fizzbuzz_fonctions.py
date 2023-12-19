@@ -17,7 +17,7 @@ def etape_fizz_buzz_2(nombre):
         return "fizzbuzz"
     elif est_divisible_par(nombre, 3):
         return "fizz"
-    elif nombre % 5 == 0:
+    elif est_divisible_par(nombre, 5):
         return "buzz"
     else:
         return nombre
