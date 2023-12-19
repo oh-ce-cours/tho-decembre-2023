@@ -12,3 +12,7 @@ file = "a"
 def toto():
     file = "b"
     print(file)
+
+
+def addition(a, b):
+    print(a+b)
