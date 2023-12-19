@@ -25,7 +25,7 @@ print("#############")
 entre_utilisateur = 2
 
 while 0 < entre_utilisateur < 10 :
-    #entre_utilisateur = int(input("Entrez un nombre entre 1 et 10 "))
-    print(entre_utilisateur)
+    entre_utilisateur = int(input("Entrez un nombre entre 1 et 10 "))
+print("Vous avez choisi", entre_utilisateur)   
     
     
