@@ -1,3 +1,5 @@
+# pour que ce code fonctionne il faut 
+
 def est_divisible_par(nombre, modulo):
     return nombre % modulo == 0
 
