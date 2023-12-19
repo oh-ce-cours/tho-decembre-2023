@@ -10,7 +10,17 @@ def etape_fizz_buzz_1(nombre):
         res = res + "buzz"
     if res == "":
         res = str(nombre)
-    return res 
+    return res
+
+def etape_fizz_buzz_1(nombre):
+    if est_divisible_par(nombre, 5):
+        return "buzz"
+    elif est_divisible_par(nombre, 3) and est_divisible_par(nombre, 5):
+        return "fizzbuzz"
+    elif est_divisible_par(nombre, 3):
+        return "fizz"
+    else:
+        return nombre
 
 def test_est_divisible_par():
     assert est_divisible_par(2, 2) == True
