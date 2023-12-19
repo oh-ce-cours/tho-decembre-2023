@@ -1,5 +1,3 @@
-
-
 def fizz_buzz1(debut, fin):
     for nombre in range(debut, fin):
         res = ""
