@@ -26,3 +26,6 @@ entre_utilisateur = -1
 
 while 0 < entre_utilisateur < 10 :
     entre_utilisateur = input("Entrez un nombre entre 1 et 10 ")
+    
+    
+    
