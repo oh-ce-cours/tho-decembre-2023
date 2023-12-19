@@ -19,3 +19,10 @@ print("boucle cas 2")
 
 for lettre in nom_utilisateur:
     print(lettre)
+
+print("#############")
+
+entre_utilisateur = ""
+
+while 0 < entre_utilisateur < 10 :
+    corps_boucle
