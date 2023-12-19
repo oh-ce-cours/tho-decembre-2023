@@ -10,3 +10,6 @@ else:
     print("You're too young to party")
 
 # Output: You are too old to party, granny.
+
+match age:
+    case  
