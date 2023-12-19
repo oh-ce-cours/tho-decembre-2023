@@ -17,3 +17,8 @@ print(min_courant, max_courant)
 min_courant = min(ma_liste)
 max_courant = max(ma_liste)
 print(min_courant, max_courant)
+
+###########
+
+liste_triee = sorted(ma_liste)
+print(liste_triee[0], liste_triee[len(liste_triee) - 1])
