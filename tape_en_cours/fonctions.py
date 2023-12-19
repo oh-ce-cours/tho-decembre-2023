@@ -3,7 +3,8 @@ def f(x):
 
 
 def retourne_data():
-    return open("ouverture_csv.py", "r").readlines()
+    f = open("ouverture_csv.py", "r")
+    return f.readlines()
 
 def toto():
     pass 
