@@ -31,3 +31,8 @@ ma_liste = []
     if ma_liste:
 <=> if len(ma_liste) > 0:
     Rajouté depuis Python :) 
+Rajouté depuis Python :) 
+Rajouté depuis Python :) 
+Rajouté depuis Python :) 
+Rajouté depuis Python :) 
+Rajouté depuis Python :) 
