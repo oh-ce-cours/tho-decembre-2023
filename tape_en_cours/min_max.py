@@ -9,4 +9,4 @@ for valeur in ma_liste:
     if max_courant < valeur:
         max_courant = valeur
         
-print(min_courant, max_courant)    
+print(min_courant, max_courant)
