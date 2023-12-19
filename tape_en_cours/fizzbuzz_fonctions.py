@@ -22,4 +22,4 @@ def fizz_buzz2():
 
     
     
-fizz_buzz1()
+fizz_buzz2()
