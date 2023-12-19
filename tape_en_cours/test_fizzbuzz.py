@@ -20,7 +20,7 @@ def etape_fizz_buzz_1(nombre):
     elif est_divisible_par(nombre, 3):
         return "fizz"
     else:
-        return nombre
+        return str(nombre)
 
 def test_est_divisible_par():
     assert est_divisible_par(2, 2) == True
