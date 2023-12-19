@@ -1,8 +1,9 @@
 # Rappels du jour 1
 
 * 2 parties dans l'écriture d'un programme
-    * trouver l algorithme
-    * le traduire en python 
+    * trouver l algorithme => partie créative
+    * le traduire en python => partie technique 
+    
 * variables
     * entiers
     * flottants (nombres à virgule)
