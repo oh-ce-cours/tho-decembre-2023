@@ -17,7 +17,11 @@ Modules / imports :
         * from random import *  # on vide l'espace de nom de random dans l'espace local : randint 
         * import random # on a un espace de nom et on appelle en faisant : random.randint
         * from random import randint # on ne récupère que randint de l'espace random
-
+    * les modules peuvent etre
+        * écrit par vous, des fichiers python que l'on peut importer
+        * 
+    
+# Conditions 
 ma_liste = []
     if ma_liste:
 <=> if len(ma_liste) > 0:
