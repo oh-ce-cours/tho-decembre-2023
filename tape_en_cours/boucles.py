@@ -22,6 +22,8 @@ for lettre in nom_utilisateur:
 
 print("#############")
 
+print("boucle while")
+
 entre_utilisateur = -1
 
 while not 0 < entre_utilisateur < 10 :
