@@ -13,10 +13,10 @@ def fizz_buzz2():
     for nombre in range(1, 101):
         if nombre % 3 == 0 and nombre % 5 == 0:
             print("fizzbuzz")
-        if nombre % 5 == 0:
-            res = res + "buzz"
-        if res == "":
-            res = str(nombre)
+        elif nombre % 3 == 0:
+            print("fizz")
+        elif nombre % 5 == 0:
+            print("buzz")
         print(res)
         
     
