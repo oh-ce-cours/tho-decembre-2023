@@ -1,5 +1,5 @@
 def f(x):
-    return 3*x+2
+    res = 3*x+2
 
 
 def retourne_data():
