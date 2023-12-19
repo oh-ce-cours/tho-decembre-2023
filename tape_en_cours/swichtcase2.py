@@ -1,4 +1,4 @@
-lang = "fr"
+lang = "en"
 
 if lang == "fr":
     print("Bonjour")
