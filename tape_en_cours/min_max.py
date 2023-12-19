@@ -8,5 +8,5 @@ for valeur in ma_liste:
         min_courant = valeur
     if max_courant < valeur:
         max_courant = valeur
-        
+    
 print(min_courant, max_courant)
