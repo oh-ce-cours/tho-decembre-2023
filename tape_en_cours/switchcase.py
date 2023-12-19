@@ -7,6 +7,6 @@ elif age < 0:
 elif age >= 18:
     print("You are allowed to party")
 else: 
-    "You're too young to party"
+    print("You're too young to party")
 
 # Output: You are too old to party, granny.
