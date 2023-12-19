@@ -12,4 +12,5 @@ else:
 # Output: You are too old to party, granny.
 
 match age:
-    case  
+    case age<0:
+        print("too young")
