@@ -19,3 +19,6 @@ def test_est_divisible_par():
     
 def test_etape_fizz_buzz_1():
     assert etape_fizz_buzz_1(4) == "4"
+    assert etape_fizz_buzz_1(5) == "buzz"
+    assert etape_fizz_buzz_1(3) == "fizz"
+    assert etape_fizz_buzz_1(15) == "fizzbuzz"
