@@ -1,7 +1,7 @@
 # ouverture en lecture 
 f = open("rappel_j2.md.py")
 f = open("C://Documents/pro/projet/file.txt")  # ouverture en mode absolue
-f = open("../medias/phrases.txt")
+f = open("../supports/medias/phrases_magic_8_ball.txt")
 
 # on lit le contenu et on le mets à jour en rajoutant une ligne à la fin
 file_content = f.readlines()
