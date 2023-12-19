@@ -15,3 +15,7 @@ def etape_fizz_buzz_1(nombre):
 def test_est_divisible_par():
     assert est_divisible_par(2, 2) == True
     assert est_divisible_par(3, 2) == False
+    
+    
+def test_etape_fizz_buzz_1():
+    assert etape_fizz_buzz_1(4) == 4
