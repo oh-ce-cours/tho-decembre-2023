@@ -12,6 +12,10 @@ Manipulation de conditions avec if
     
     * le traitement logique va se faire par ordre "chronologique" / des lignes
     
+Switchcases
+    * disponibles à partir de python 3.10
+    * permet de faciliter l'écriture de ifs successifs
+    
 Modules / imports :
     * on peut importer toute une bibliothèque
         * from random import *  # on vide l'espace de nom de random dans l'espace local : randint 
