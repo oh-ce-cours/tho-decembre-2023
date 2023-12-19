@@ -11,11 +11,11 @@ for nombre in range(1, 101):
     divisible_par_3 = nombre % 3 == 0
     
     match divisible_par_3, divisible_par_5:
+        case True, False:
+            print("buzz")
         case True, True:
             print("fizzbuzz")
         case False, True:
             print("fizz")
-        case True, False:
-            print("buzz")
         case _:
             print(nombre)
