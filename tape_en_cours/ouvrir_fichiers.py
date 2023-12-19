@@ -1,5 +1,5 @@
 # ouverture en lecture 
-f = open("rappel_j2.md.py", encoding="utf8")
+f = open("rappel_j2.md.py", encoding="utf8") # on spécifie l'encodage du fichier
 # f = open("C://Documents/pro/projet/file.txt")  # ouverture en mode absolue
 f = open("../supports/medias/phrases_magic_8_ball.txt")  # ouverture en mode relatif
 
