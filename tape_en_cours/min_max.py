@@ -4,4 +4,8 @@ min_courant = ma_liste[0]
 max_courant = ma_liste[0]
 
 for valeur in ma_liste:
-    print(valeur)
+    if min_courant > valeur:
+        min_courant = valeur
+    if max_courant < valeur:
+        max_courant = valeur
+print(min_courant, max_courant)    
