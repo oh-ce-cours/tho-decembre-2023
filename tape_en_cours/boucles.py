@@ -22,9 +22,9 @@ for lettre in nom_utilisateur:
 
 print("#############")
 
-entre_utilisateur = 2
+entre_utilisateur = -1
 
-while 0 < entre_utilisateur < 10 :
+while not 0 < entre_utilisateur < 10 :
     entre_utilisateur = int(input("Entrez un nombre entre 1 et 10 "))
 print("Vous avez choisi", entre_utilisateur)   
     
