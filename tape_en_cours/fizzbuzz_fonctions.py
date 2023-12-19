@@ -4,18 +4,18 @@ def est_divisible_par(nombre, modulo):
 
 def etape_fizz_buzz_1(nombre):
     res = ""
-    if nombre % 3 == 0:
+    if est_divisible_par(nombre, 3):
         res = res + "fizz"
-    if nombre % 5 == 0:
+    if est_divisible_par(nombre, 5):
         res = res + "buzz"
     if res == "":
         res = str(nombre)
     return res 
 
 def etape_fizz_buzz_2(nombre):
-    if nombre % 3 == 0 and nombre % 5 == 0:
+    if est_divisible_par(nombre, 3) and est_divisible_par(nombre, 5):
         return "fizzbuzz"
-    elif nombre % 3 == 0:
+    elif est_divisible_par(nombre, 3):
         return "fizz"
     elif nombre % 5 == 0:
         return "buzz"
