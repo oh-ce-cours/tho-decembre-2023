@@ -1,7 +1,7 @@
 # ouverture en lecture 
 f = open("rappel_j2.md.py")
 
-# on lit le contenu
+# on lit le contenu et on le mets à jour en rajoutant une ligne à la fin
 file_content = f.readlines()
 new_line = "Rajouté depuis Python :) \n"
 file_content.append(new_line)
