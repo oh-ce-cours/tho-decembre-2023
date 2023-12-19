@@ -10,3 +10,9 @@ for valeur in ma_liste:
         max_courant = valeur
     
 print(min_courant, max_courant)
+
+
+############
+
+min_courant = min(ma_liste)
+max_courant = max(ma_liste)
