@@ -7,4 +7,4 @@ def retourne_data():
     return file.readlines()
 
 def toto():
-    pass 
+    print(file)
