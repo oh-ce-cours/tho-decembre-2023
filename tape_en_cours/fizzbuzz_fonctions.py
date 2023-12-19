@@ -8,6 +8,9 @@ def etape_fizz_buzz_1(nombre):
         res = str(nombre)
     return res 
 
+def etape_fizz_buzz_2(nombre):
+
+
 def fizz_buzz1(debut, fin):
     for nombre in range(debut, fin):
         res = etape_fizz_buzz_1(nombre)
