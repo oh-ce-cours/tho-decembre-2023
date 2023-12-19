@@ -24,4 +24,4 @@ def fizz_buzz2(debut, fin):
 
     
     
-fizz_buzz2()
+fizz_buzz2(1, 101)
