@@ -6,3 +6,4 @@ file_content.append(new_line)
 
 f_ecriture = open("rappel_j2.md.py", mode="w")
 f_ecriture.writelines(file_content)
+f_ecriture.close()
