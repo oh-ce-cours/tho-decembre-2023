@@ -5,4 +5,4 @@ new_line = "Rajouté depuis Python :) \n"
 file_content.append(new_line)
 
 f_ecriture = open("rappel_j2.md.py", mode="w")
-f_ecriture.writelinewritelinewritelinewritelines(
+f_ecriture.writelines(file_content)
