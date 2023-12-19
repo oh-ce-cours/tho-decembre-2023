@@ -1,4 +1,5 @@
 f = open("../supports/medias/phrases_magic_8_ball.txt")  # ouverture en mode relatif
 
 for line in f:
-    print(line, line == "\n")
+    if line != "\n":
+        print(line)
