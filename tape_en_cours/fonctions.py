@@ -4,3 +4,6 @@ def f(x):
 
 def retourne_data():
     return open("ouverture_csv.py", "r").readlines()
+
+def toto():
+    pass 
