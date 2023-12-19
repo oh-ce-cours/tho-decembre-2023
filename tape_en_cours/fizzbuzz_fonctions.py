@@ -9,6 +9,14 @@ def etape_fizz_buzz_1(nombre):
     return res 
 
 def etape_fizz_buzz_2(nombre):
+    if nombre % 3 == 0 and nombre % 5 == 0:
+        return "fizzbuzz"
+    elif nombre % 3 == 0:
+        return "fizz"
+    elif nombre % 5 == 0:
+        return "buzz"
+    else:
+        return nombre
 
 
 def fizz_buzz1(debut, fin):
@@ -18,14 +26,6 @@ def fizz_buzz1(debut, fin):
     
 def fizz_buzz2(debut, fin):
     for nombre in range(debut, fin):
-        if nombre % 3 == 0 and nombre % 5 == 0:
-            print("fizzbuzz")
-        elif nombre % 3 == 0:
-            print("fizz")
-        elif nombre % 5 == 0:
-            print("buzz")
-        else:
-            print(nombre)
 
     
     
