@@ -10,8 +10,13 @@ Manipulation de conditions avec if
     * (else:) (optionnel, on peut en mettre qu'un seul)
         * on permet de capturer tous les autres cas
     
+    * le traitement logique va se faire par ordre "chronologique" / des lignes
     
-    
+Modules / imports :
+    * on peut importer toute une bibliothèque
+        * from random import *  # on vide l'espace de nom de random dans l'espace local : randint 
+        * import random # on a un espace de nom et on appelle en faisant : random.randint
+        * from random import randint # on ne récupère que randint de l'espace random
 
 ma_liste = []
     if ma_liste:
