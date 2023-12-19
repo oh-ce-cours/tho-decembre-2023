@@ -26,6 +26,6 @@ entre_utilisateur = 2
 
 while 0 < entre_utilisateur < 10 :
     #entre_utilisateur = int(input("Entrez un nombre entre 1 et 10 "))
-    print(entree_utilisateur)
+    print(entre_utilisateur)
     
     
