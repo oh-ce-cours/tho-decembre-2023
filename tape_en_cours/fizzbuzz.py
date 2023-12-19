@@ -14,5 +14,8 @@ for nombre in range(1, 101):
         case True, True:
             print("fizzbuzz")
         case False, True:
-            print("fizzbuzz")
-
+            print("fizz")
+        case True, False:
+            print("buzz")
+        case _:
+            print(nombre)
