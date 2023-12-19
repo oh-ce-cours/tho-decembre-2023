@@ -1,5 +1,5 @@
 def est_divisible_par(nombre, modulo):
-    return nombre % modulo == 0
+    return nombre % modulo
 
 
 def etape_fizz_buzz_1(nombre):
