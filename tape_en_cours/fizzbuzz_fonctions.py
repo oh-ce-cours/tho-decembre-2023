@@ -10,7 +10,8 @@ def etape_fizz_buzz_1(nombre):
 
 def fizz_buzz1(debut, fin):
     for nombre in range(debut, fin):
-        etape_fizz_buzz_1(nombre)
+        res = etape_fizz_buzz_1(nombre)
+        print(res)
     
 def fizz_buzz2(debut, fin):
     for nombre in range(debut, fin):
