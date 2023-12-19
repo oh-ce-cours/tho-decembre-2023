@@ -17,8 +17,9 @@ def fizz_buzz2():
             print("fizz")
         elif nombre % 5 == 0:
             print("buzz")
-        print(res)
-        
+        else:
+            print(nombre)
+
     
     
 fizz_buzz1()
