@@ -8,4 +8,12 @@ else:
     print("Unsupported language")
     
 
+##################
 
+match lang:
+    case "fr":
+        print("Bonjour")
+    case "en":
+        print("Hello")
+    case _:
+        print("Unsupported language")
